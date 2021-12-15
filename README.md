@@ -2,7 +2,7 @@
 This is a simple web app for simulating taxi service based on Stateful Web Service,
 at first you have to pass authentication or create a new driver which login and password
 will be your for authentication to the service.
-## Project description:
+## Available functions:
 * Ability to create driver, manufacturer or car
 * Ability to delete driver, manufacturer or car
 * Ability to get all drivers, manufacturers or cars
@@ -14,7 +14,6 @@ will be your for authentication to the service.
     - Services
     - DAO
 * Dependency injection and Inversion of control
-* Relations many to one, many to many
 ## Technologies used in project:
 * Apache Tomcat (v9.0.55)
 * JDBC
@@ -24,15 +23,14 @@ will be your for authentication to the service.
 * JSTL
 * HTML, CSS
 * Maven
-* Maven checkstyle plugin
 ## Recommendations to run project:
-* Intellij IDEA Ultimate Edition
-* Apache Tomcat version 9.0.55
-* MySQL and MySQL Workbench
-* Create a schema like in resources/init_db.sql in MySQL Workbench
-* Add your DB Properties in ConnectionUtil class
-* Edit your Tomcat configuration
-* After running tomcat go to http://localhost:your port and create a new driver
-* For using logger change full path in log4j2.xml file
+1. Install Intellij IDEA Ultimate Edition
+2. Install Apache Tomcat version 9.0.55
+3. Install MySQL and MySQL Workbench
+4. Create a schema in MySQL Workbench using resources/init_db.sql
+5. Add your DB Properties in ConnectionUtil class
+6. Edit your Tomcat configuration
+7. After running tomcat go to http://localhost:your port and create a new driver
+8. For using logger change full path in log4j2.xml file
 
 ![diagram](src/main/resources/join-relations-db-table.png)
