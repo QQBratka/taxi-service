@@ -43,3 +43,5 @@ will be your for authentication to the service.
 * Edit your Tomcat configuration
 * After running tomcat go to http://localhost:your port and create a new driver
 * For using logger change full path in log4j2.xml file
+
+![diagram](src/main/resources/join-relations-db-table.png)
